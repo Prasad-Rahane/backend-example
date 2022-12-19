@@ -1,11 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-      "start": "node app.js"
-      //  "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-
+      
+     "start": "node ./node_modules/nodemon/bin/nodemon.js app.js --exec \"npm run lint && node\"",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "author": "",
   "license": "ISC",
