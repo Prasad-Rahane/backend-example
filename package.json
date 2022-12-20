@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
       
-     "start": "node /workspace/app.js"
+     "start": "node app.js"
    
   },
   "author": "",
