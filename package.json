@@ -1,11 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "node backend-example/app.js",
+  "main": "node app.js",
   "scripts": {
       
-     "start": "node backend-example/app.js"
-   
+     "start": "node  app.js",
+"client": "npm start --prefix client"   
   },
   "author": "",
   "license": "ISC",
