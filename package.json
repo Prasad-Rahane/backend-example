@@ -1,10 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "./app.js",
+  "main": "node backend-example/app.js",
   "scripts": {
       
-     "start": "node ./app.js"
+     "start": "node backend-example/app.js"
    
   },
   "author": "",
