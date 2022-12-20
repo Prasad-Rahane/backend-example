@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 const mongoose  = require('mongoose')
-require('dotenv').config()
-const port = process.env.PORT || 5000;
+
+const PORT = process.env.PORT || 5000;
 const {MONGOURI} = require('/config/key')
 
 
@@ -35,6 +35,6 @@ if(process.env.NODE_ENV=="production"){
     })
 }
 
-app.listen(port, () => {
-    console.log(`App listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`App listening at http://localhost:${PORT}`);
 });
